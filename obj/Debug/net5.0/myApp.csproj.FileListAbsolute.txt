@@ -16,7 +16,13 @@ D:\javascript2\dotnet\myApp\obj\Debug\net5.0\scopedcss\bundle\myApp.styles.css
 D:\javascript2\dotnet\myApp\obj\Debug\net5.0\staticwebassets\myApp.StaticWebAssets.Manifest.cache
 D:\javascript2\dotnet\myApp\obj\Debug\net5.0\myApp.RazorTargetAssemblyInfo.cache
 D:\javascript2\dotnet\myApp\obj\Debug\net5.0\myApp.dll
-D:\javascript2\dotnet\myApp\obj\Debug\net5.0\refint\myApp.dll
 D:\javascript2\dotnet\myApp\obj\Debug\net5.0\myApp.pdb
 D:\javascript2\dotnet\myApp\obj\Debug\net5.0\myApp.genruntimeconfig.cache
 D:\javascript2\dotnet\myApp\obj\Debug\net5.0\ref\myApp.dll
+D:\javascript2\dotnet\myApp\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\javascript2\dotnet\myApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\javascript2\dotnet\myApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\javascript2\dotnet\myApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\javascript2\dotnet\myApp\obj\Debug\net5.0\myApp.MvcApplicationPartsAssemblyInfo.cs
+D:\javascript2\dotnet\myApp\obj\Debug\net5.0\myApp.csproj.CopyComplete
+D:\javascript2\dotnet\myApp\obj\Debug\net5.0\refint\myApp.dll

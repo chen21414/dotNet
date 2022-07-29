@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Catalog.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -16,6 +17,10 @@ namespace myApp
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            //I added here ***
+            //this is how I register my dependency
+            services.AddSingleton<IItemsRepository, InMemItemsRepository>();
+
             services.AddSwaggerGen();
         }
 
@@ -25,7 +30,7 @@ namespace myApp
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "myApp");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Catalog");
             });
 
             if (env.IsDevelopment())
